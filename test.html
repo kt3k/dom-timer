@@ -1,0 +1,29 @@
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/gameloop/gameloop.js"></script>
+<script src="dom-timer.js"></script>
+
+<script>
+
+$(function () {
+
+    $('p').on('tick.dom-timer', function (event, time) {
+
+        $(this).text(time);
+
+    });
+
+    $('p').on('stop.dom-timer', function () {
+
+        alert('stopped!');
+
+    });
+
+});
+
+</script>
+
+
+<p class="dom-timer" data-time="5000"></p>
+
+<p class="dom-timer" data-end-at="1500000000000"></p>
