@@ -6,7 +6,7 @@
     var CLASS = 'dom-timer';
     var CLASS_INIT = 'dom-timer-initialized';
 
-    var SELECTOR = '.' + CLASS + ':not(' + CLASS_INIT + ')';
+    var SELECTOR = '.' + CLASS + ':not(.' + CLASS_INIT + ')';
 
     var INIT_EVENT = 'init.dom-timer';
     var TICK_EVENT = 'tick.dom-timer';
@@ -44,8 +44,6 @@
     var initOne = function (element) {
 
         var $el = $(element);
-
-        $el.removeClass(CLASS);
 
         $el.addClass(CLASS_INIT);
 
