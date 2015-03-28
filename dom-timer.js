@@ -59,8 +59,6 @@
 
         var loop = gameloop(function () {
 
-            console.log(1);
-
             var now = +new Date();
 
             if (now > endAt) {
