@@ -1,4 +1,4 @@
-# dom-timer v0.1.1
+# dom-timer v0.1.2
 
 > Dom as timer
 
