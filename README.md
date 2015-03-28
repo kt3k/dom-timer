@@ -54,4 +54,4 @@ The above emits `tick.dom-timer` 60 times per seconds.
 <p class="dom-timer" data-time="15000000000" data-fps="60"></p>
 ```
 
-The above emits `tick.dom-timer` 60 times per seconds with the remaining milliseconds towardst the unixtime `1500000000000` (milliseconds) and stops at `1500000000000` (Fri, 14 Jul 2017 02:40:00 GMT).
+The above emits `tick.dom-timer` 60 times per seconds with the remaining milliseconds towards the unixtime `1500000000000` (milliseconds) and stops at `1500000000000` (Fri, 14 Jul 2017 02:40:00 GMT). If you specify both `data-time` and `data-end-at`, then `data-end-at` is used and `data-time` is ignored.
