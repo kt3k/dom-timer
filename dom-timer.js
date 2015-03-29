@@ -51,7 +51,7 @@
 
         if (!endAt) {
 
-            var time = +$el.attr('data-time') || 180 * 1000;
+            var time = +$el.attr('data-time') || 0;
 
             endAt = time + (+new Date());
 
